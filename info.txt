@@ -9,7 +9,7 @@ Configure PostgreSQL:
 Create and start your first Odoo instances:
     $ createdb odoo-test
     $ python3 odoo-bin -d odoo-test -i base --addons-path=addons --db-filter=odoo-test$
-    (about last one, from bin: $python3 ./src/odoo-bin -d odoo-test -i base --db-filter=odoo-test$)
+    (about last one: python3 ./src/odoo-bin -d odoo-test -i base --addons-path=./src/addons/,./src/addons/local/ --db-filter=odoo-test$)
 
 Poit at: http://localhost:8069/web/login
     user: admin
